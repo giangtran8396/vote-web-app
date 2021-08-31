@@ -1,0 +1,30 @@
+.Input {
+  display: inline-block;
+  position: relative;
+  margin-bottom: 1rem;
+  width: 100%;
+}
+
+.Input input {
+  display: block;
+  width: 100%;
+  height: calc(2.25rem + 2px);
+  font-size: 1rem;
+  line-height: 1.5;
+  color: #495057;
+  background-color: #fff;
+  background-clip: padding-box;
+  border: 0px solid transparent;
+  border-bottom: 1px solid #ddd;
+  border-radius: 0;
+  transition: border-color .15s ease-in-out,box-shadow .15s ease-in-out;
+}
+
+.Input input:focus {
+  border: 0px solid transparent;
+  border-bottom: 1px solid #ddd;
+  border-radius: 0;
+  background-color: #fff;
+  border-color: #ddd;
+  outline: 0;
+}

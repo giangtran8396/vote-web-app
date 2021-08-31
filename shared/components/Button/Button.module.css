@@ -1,0 +1,26 @@
+.Button {
+  background: #ff2020;
+  font-family: "Josefin Sans",sans-serif;
+  text-transform: uppercase;
+  color: #fff;
+  font-size: 16px;
+  font-weight: 600;
+  letter-spacing: 0.03em;
+  padding: 30px 28px;
+  border-radius: 0px;
+  display: inline-block;
+  line-height: 0;
+  cursor: pointer;
+  margin-bottom: 0;
+  position: relative;
+  border: 0;
+  margin: 0;
+}
+
+.Success {
+  color: #5C9210;
+}
+
+.Danger {
+  color: #944317;
+}

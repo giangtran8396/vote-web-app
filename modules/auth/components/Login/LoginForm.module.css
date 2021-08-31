@@ -1,0 +1,64 @@
+.Auth {
+  width: 100%;
+  padding-right: 15px;
+  padding-left: 15px;
+  margin-right: auto;
+  margin-left: auto;
+  display: flex;
+  padding-top: 40px;
+}
+
+.Auth_Col {
+  width: 50%;
+  flex: 0 0 50%;
+  padding-right: 10px;
+  padding-left: 10px;
+}
+
+.Auth h3 {
+  font-size: 26px;
+  line-height: 36px;
+  font-weight: 700;
+  margin-bottom: 80px;
+}
+
+.Auth_Form {
+  padding: 65px 50px 0 50px;
+  height: 600px;
+  display: table;
+  width: -webkit-fill-available;
+}
+
+.Auth_btn {
+  margin-top: 28px;
+}
+
+@media (min-width: 576px) {
+  .Auth {
+      max-width: 540px;
+  }
+}
+
+@media (min-width: 768px) {
+  .Auth {
+      max-width: 720px;
+  }
+}
+
+@media (min-width: 992px) {
+  .Auth {
+      max-width: 960px;
+  }
+}
+
+@media (min-width: 1200px) {
+  .Auth {
+      max-width: 1200px;
+  }
+}
+
+@media only screen and (max-width: 3640px) and (min-width: 1200px) {
+  .Auth {
+      max-width: 1170px;
+  }
+}
